@@ -1,0 +1,58 @@
+# =====================
+# Python / Conda / PyCharm .gitignore
+# =====================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# --- Conda / Virtualenv ---
+env/
+venv/
+.venv/
+*.conda
+*.tar.bz2
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- PyCharm ---
+.idea/
+*.iml
+*.iws
+.idea/*
+
+# --- 데이터 / 로그 / 모델 파일 ---
+*.log
+*.csv
+*.tsv
+*.h5
+*.sqlite
+*.db
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.mkv
+*.model
+*.pth
+*.pt
+
+# --- XML / 임시 파일 ---
+*.xml
+*.tmp
+*.bak
+*.swp
+
+*.exe
+*.bat
